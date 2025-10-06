@@ -22,9 +22,9 @@ def convert_C_to_F_02():
   print()
   #temperature conversion options
   #option_1
-  print('1. Convert from Celsius to Fahrenheit')
+  print('  1. Convert from Celsius to Fahrenheit')
   #option_2
-  print('2. Convert from Fahrenheit to Celsius')
+  print('  2. Convert from Fahrenheit to Celsius')
   print()
   choice=input('Please choose from the above menu: ')
   #if 
