@@ -31,14 +31,14 @@ def convert_C_to_F_02():
   if choice == '1':
        celsius =float(input('Enter a temperature to convert: '))
 #Formula: C * 9/5 + 32
-    degree_f = celsius * 9/5 + 32
-    print()
-    print(f'{celsius} degrees Celsius is {degree_f:.1f} degrees Fahrenheit.')
+       degree_f = celsius * 9/5 + 32
+       print()
+       print(f'{celsius} degrees Celsius is {degree_f:.1f} degrees Fahrenheit.')
   elif choice == '2':
-        fahrenheit =float(input('Enter a temperature to convert: '))
-    degree_c = (fahrenheit-32)*5/9
-    print()
-    print(f'{fahrenheit} degrees Fahrenheit is {degree_c:.1f} degrees Celsius.') 
+       fahrenheit =float(input('Enter a temperature to convert: '))
+       degree_c = (fahrenheit-32)*5/9
+       print()
+       print(f'{fahrenheit} degrees Fahrenheit is {degree_c:.1f} degrees Celsius.') 
 
 #run
 main()
