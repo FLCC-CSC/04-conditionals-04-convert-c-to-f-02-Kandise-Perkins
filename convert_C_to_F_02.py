@@ -1,8 +1,8 @@
 # FILE NAME - convert_C_to_F_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME:Kandise Perkins
+# DATE: October 5, 2025
+# BRIEF DESCRIPTION: Convert temperature both ways using if statements
 
 
 
@@ -14,7 +14,32 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
+def main():
+    convert_C_to_F_02()
 
+def convert_C_to_F_02():
+  print('===== Temperature Converter =====')
+  print()
+  #temperature conversion options
+  option_1=print('1. Convert from Celsius to Fahrenheit')
+  option_2=print('2. Convert from Fahrenheit to Celsius')
+  print()
+  choice=input('Please choose from the above menu: ')
+  #if 
+  if choice == '1':
+    celsius = float(input('Enter a temperature to convert: '))
+#Formula: C * 9/5 + 32
+    degree_f = celsius * 9/5 + 32
+    print()
+    print(f'{celsius} degrees Celsius is {degree_f:.1f} degrees Fahrenheit.')
+  elif choice == '2':
+    fahrenheit = float(input('Enter a temperature to convert: '))
+    degree_c = (fahrenheit-32)*5/9
+    print()
+    print(f'{fahrenheit} degrees Fahrenheit is {degree_c:.1f} degrees Celsius.') 
+
+#run
+main()
 
 
 
@@ -92,7 +117,7 @@ Enter a temperature to convert: -40
 '''
 
 1. What is one lesson you learned in this lab?
-
+indentation is critical to a successful code and sequence matters.
 
 
 
